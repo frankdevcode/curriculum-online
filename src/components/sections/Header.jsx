@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import { Sun, Moon, Menu, X } from 'lucide-react';
-import { profile } from '../data/profile';
+import { profile } from '../../data/profile';
 
 const Header = ({ darkMode, setDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
